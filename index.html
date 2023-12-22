@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="scoreContainer">
+            <h1 id="score"></h1>
+            <p id="pos50" class="mod">+50</p>
+            <p id="neg100" class="mod">-100</p>
+            <p id="pos100" class="mod">+100</p>
+        </div>
+        <div class="questionContainer">
+            <p class="selectedQuestion" id="question"></p>
+            <div class="possibleAwnsers">
+                <button class="awnser" id="1" onclick="awnserQuestion(this.id)"></button>
+                <button class="awnser" id="2" onclick="awnserQuestion(this.id)"></button>
+                <button class="awnser" id="3" onclick="awnserQuestion(this.id)"></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
