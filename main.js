@@ -52,6 +52,48 @@ function initQuestions() {
     wrongAwnser: "wrong",
     neutralAwnser: "neutral",
   });
+  allQuestions.push({
+    index: 7,
+    question: "Test question 7",
+    correctAwnser: "correct",
+    wrongAwnser: "wrong",
+    neutralAwnser: "neutral",
+  });
+  allQuestions.push({
+    index: 8,
+    question: "Test question 8",
+    correctAwnser: "correct",
+    wrongAwnser: "wrong",
+    neutralAwnser: "neutral",
+  });
+  allQuestions.push({
+    index: 9,
+    question: "Test question 9",
+    correctAwnser: "correct",
+    wrongAwnser: "wrong",
+    neutralAwnser: "neutral",
+  });
+  allQuestions.push({
+    index: 10,
+    question: "Test question 10",
+    correctAwnser: "correct",
+    wrongAwnser: "wrong",
+    neutralAwnser: "neutral",
+  });
+  allQuestions.push({
+    index: 11,
+    question: "Test question 11",
+    correctAwnser: "correct",
+    wrongAwnser: "wrong",
+    neutralAwnser: "neutral",
+  });
+  allQuestions.push({
+    index: 12,
+    question: "Test question 12",
+    correctAwnser: "correct",
+    wrongAwnser: "wrong",
+    neutralAwnser: "neutral",
+  });
 }
 
 const possibleAwnsers = ["correctAwnser", "neutralAwnser", "wrongAwnser"];
